@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="1dp"
+    android:layout_marginTop="5dp"
+    android:background="#fff"
+    android:clickable="true"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:showDividers="end">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Part Number"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/scene_thumbnail"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/ic_drawer_trailers" />
+</LinearLayout>

@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_faqs"
+        android:icon="@drawable/ic_faqs"
+        android:title="FAQs"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_contact"
+        android:icon="@drawable/ic_contact"
+        android:title="Contact"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_logout"
+        android:icon="@drawable/ic_logout"
+        android:title="Logout"
+        app:showAsAction="always" />
+
+</menu>

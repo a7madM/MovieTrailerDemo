@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Movie Trailer</string>
+    <string name="activity_title_login">Login</string>
+    <string name="activity_title_register">Create Account</string>
+
+    <string name="command1">ffmpeg -y -i /sdcard/Movies/video.mp4 -strict experimental -vf transpose=1 -s 160x120 -r 30 -aspect 4:3 -ab 48000 -ac 2 -ar 22050 -b 2097k /sdcard/Movies/out.mp4</string>
+    <string name="command2">ffmpeg -y -i /sdcard/Movies/movie.avi -strict experimental -ss 00:00:10 -codec copy -t 40 /sdcard/Movies/output.mp4</string>
+
+    <string name="email">Email Address</string>
+    <string name="passwd">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="register">Register</string>
+    <string name="title_activity_main">Create Trailer</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
