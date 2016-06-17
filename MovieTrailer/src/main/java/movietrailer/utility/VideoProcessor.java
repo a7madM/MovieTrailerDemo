@@ -43,7 +43,6 @@ public class VideoProcessor extends AsyncTask<String, Integer, Void> {
         vkLogPath = workFolder + "vk.log";
     }
 
-
     @Override
     protected void onPreExecute() {
 
@@ -56,7 +55,6 @@ public class VideoProcessor extends AsyncTask<String, Integer, Void> {
             Log.e(Log_Tag, filePath + " NotExist");
             return null;
         }
-        // delete previous log
         GeneralUtils.deleteFileUtil(workFolder + "/vk.log");
         PowerManager powerManager = (PowerManager) context.getSystemService(Activity.POWER_SERVICE);
         PowerManager.WakeLock wakeLock = powerManager.newWakeLock(PowerManager.PARTIAL_WAKE_LOCK, "VK_LOCK");

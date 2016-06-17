@@ -38,14 +38,8 @@ public class CurrentUser {
         editor.apply();
     }
 
-
     public String getSession_token() {
         return sharedPreferences.getString(session_token, null);
-    }
-
-    public void logOut() {
-        editor.clear();
-        editor.commit();
     }
 
     public String getUserEmail() {
@@ -56,4 +50,10 @@ public class CurrentUser {
         editor.putString(this.userEmail, userEmail);
         editor.apply();
     }
+
+    public void logOut() {
+        editor.clear();
+        editor.commit();
+    }
+
 }

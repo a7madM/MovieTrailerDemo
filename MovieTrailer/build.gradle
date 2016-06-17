@@ -15,6 +15,10 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
+
+        buildTypes.each {
+            it.buildConfigField 'String', 'Link_Header_WebService', '"http://192.168.68.244/project/"'
+        }
     }
 }
 

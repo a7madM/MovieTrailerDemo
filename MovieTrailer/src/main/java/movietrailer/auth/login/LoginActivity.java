@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -11,20 +12,20 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import com.movietrailer.R;
-import com.movietrailer.Splash;
+
+import org.json.JSONObject;
 
 import movietrailer.auth.CurrentUser;
 import movietrailer.auth.signup.SignUpActivity;
+import movietrailer.screens.MainScreen;
 import movietrailer.utility.HttpConnector;
 
 public class LoginActivity extends AppCompatActivity implements View.OnClickListener, HttpConnector.Callback {
 
     Button loginBtn, registerBtn;
-    EditText userEmail_Ed, passwd_Ed;
+    EditText email_Ed, passwd_Ed;
     TextView msgTV;
     ProgressBar progressBar;
-    String email;
-    CurrentUser currentUser;
     private final String LOG_TAG = LoginActivity.class.getSimpleName();
 
     @Override
@@ -38,7 +39,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 
     private void init() {
         msgTV = (TextView) findViewById(R.id.msgTV);
-        userEmail_Ed = (EditText) findViewById(R.id.userEmail_Ed);
+        email_Ed = (EditText) findViewById(R.id.email_Ed);
         passwd_Ed = (EditText) findViewById(R.id.passwd_Ed);
         progressBar = (ProgressBar) findViewById(R.id.progressBar);
         loginBtn = (Button) findViewById(R.id.loginBtn);
@@ -52,7 +53,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         int viewId = view.getId();
         switch (viewId) {
             case R.id.loginBtn:
-                email = userEmail_Ed.getText().toString();
+                String email = email_Ed.getText().toString();
                 String password = passwd_Ed.getText().toString();
                 if (!validParameters(email, password)) {
                     msgTV.setVisibility(View.VISIBLE);
@@ -60,7 +61,11 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                     return;
                 }
                 HttpConnector httpConnector = new HttpConnector(this);
-                httpConnector.execute();
+                StringBuilder input = new StringBuilder();
+                input.append("api-login");
+                input.append("?email=" + email);
+                input.append("&password=" + password);
+                httpConnector.execute(input.toString());
                 break;
 
             case R.id.registerBtn:
@@ -80,10 +85,24 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 
     @Override
     public void postExecute(String userObject) {
+        progressBar.setVisibility(View.GONE);
+        loginBtn.setVisibility(View.VISIBLE);
         try {
-            startMainActivity();
+            Log.d(LOG_TAG, "Result " + userObject);
+            JSONObject jsonObject = new JSONObject(userObject);
+            boolean success = jsonObject.getBoolean("success");
+            if (success) {
+                String token = jsonObject.getString("token");
+                CurrentUser currentUser = new CurrentUser(LoginActivity.this);
+                currentUser.authenticated(true);
+                currentUser.setSession_token(token);
+                startMainActivity();
+            } else {
+                msgTV.setVisibility(View.VISIBLE);
+                msgTV.setText("Login Failed, Try again..");
+            }
         } catch (Exception e) {
-
+            Log.e(LOG_TAG, "Post Execute " + e);
         }
     }
 
@@ -94,8 +113,9 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         return true;
     }
 
+
     private void startMainActivity() {
-        Intent intent = new Intent(LoginActivity.this, Splash.class);
+        Intent intent = new Intent(LoginActivity.this, MainScreen.class);
         startActivity(intent);
         finish();
     }

@@ -37,7 +37,7 @@
             android:label="@string/activity_title_register" />
         <activity
             android:name="movietrailer.screens.MainScreen"
-            android:label="@string/title_activity_main"
+            android:label="@string/activity_title_main"
             android:theme="@style/AppTheme.NoActionBar" />
     </application>
 

@@ -30,13 +30,13 @@
             android:padding="10dp">
 
             <EditText
-                android:id="@+id/userEmail_Ed"
+                android:id="@+id/email_Ed"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:layout_margin="2dp"
                 android:background="@drawable/edit_text_bg"
                 android:gravity="center_vertical"
-                android:hint="@string/email"
+                android:hint="Email"
                 android:inputType="textEmailAddress"
                 android:paddingLeft="10dp"
                 android:textColor="#000"
@@ -50,7 +50,7 @@
                 android:layout_margin="2dp"
                 android:background="@drawable/edit_text_bg"
                 android:gravity="center_vertical"
-                android:hint="@string/passwd"
+                android:hint="Password"
                 android:inputType="textPassword"
                 android:paddingLeft="10dp"
                 android:textColor="#000"
@@ -80,7 +80,7 @@
                 android:layout_marginRight="30dp"
                 android:layout_marginTop="10dp"
                 android:background="@drawable/btn_fill"
-                android:text="@string/sign_in"
+                android:text="Sign In"
                 android:textColor="#fff"
                 android:textSize="17sp" />
 

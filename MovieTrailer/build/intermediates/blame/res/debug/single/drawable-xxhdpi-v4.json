@@ -156,12 +156,12 @@
         "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_36dp.png"
     },
     {
-        "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_list_longpressed_holo.9.png",
-        "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xxhdpi-v4\\abc_list_longpressed_holo.9.png"
-    },
-    {
         "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png",
         "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xxhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_list_longpressed_holo.9.png",
+        "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xxhdpi-v4\\abc_list_longpressed_holo.9.png"
     },
     {
         "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",

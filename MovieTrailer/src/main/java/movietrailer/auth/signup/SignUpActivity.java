@@ -13,17 +13,16 @@ import android.widget.TextView;
 import com.movietrailer.R;
 import com.movietrailer.Splash;
 
-import movietrailer.auth.CurrentUser;
 import movietrailer.utility.HttpConnector;
 
 public class SignUpActivity extends AppCompatActivity implements View.OnClickListener, HttpConnector.Callback {
 
     Button loginBtn;
-    EditText userEmail_Ed, passwd_Ed;
+    EditText first_name_Ed, last_name_Ed, username_Ed, email_Ed, passwd_Ed, confirm_passwd_Ed, phone_Ed;
     TextView msgTV;
     ProgressBar progressBar;
-    String email;
-    CurrentUser currentUser;
+
+
     private final String LOG_TAG = SignUpActivity.class.getSimpleName();
 
     @Override
@@ -36,26 +35,55 @@ public class SignUpActivity extends AppCompatActivity implements View.OnClickLis
     }
 
     private void init() {
-        msgTV = (TextView) findViewById(R.id.msgTV);
-        userEmail_Ed = (EditText) findViewById(R.id.userEmail_Ed);
-        passwd_Ed = (EditText) findViewById(R.id.passwd_Ed);
-        progressBar = (ProgressBar) findViewById(R.id.progressBar);
 
-        loginBtn = (Button) findViewById(R.id.loginBtn);
+        first_name_Ed = (EditText) findViewById(R.id.first_name_Ed);
+        last_name_Ed = (EditText) findViewById(R.id.last_name_Ed);
+        username_Ed = (EditText) findViewById(R.id.username_Ed);
+        email_Ed = (EditText) findViewById(R.id.email_Ed);
+        passwd_Ed = (EditText) findViewById(R.id.passwd_Ed);
+        confirm_passwd_Ed = (EditText) findViewById(R.id.confirm_passwd_Ed);
+        phone_Ed = (EditText) findViewById(R.id.phone_Ed);
+
+        progressBar = (ProgressBar) findViewById(R.id.progressBar);
+        msgTV = (TextView) findViewById(R.id.msgTV);
+
+        loginBtn = (Button) findViewById(R.id.signUpBtn);
         loginBtn.setOnClickListener(this);
     }
 
     @Override
     public void onClick(View v) {
-        email = userEmail_Ed.getText().toString();
+
+        String firstName = first_name_Ed.getText().toString();
+        String lastName = last_name_Ed.getText().toString();
+        String username = username_Ed.getText().toString();
+        String email = email_Ed.getText().toString();
         String password = passwd_Ed.getText().toString();
-        if (!validParameters(email, password)) {
+        String confirm_password = confirm_passwd_Ed.getText().toString();
+        String phone = phone_Ed.getText().toString();
+
+        if (!validParameters(firstName, lastName, username, email, password, confirm_password, phone)) {
             msgTV.setVisibility(View.VISIBLE);
-            msgTV.setText("Type Email and Password");
-            //  return;
+            msgTV.setText("Fill All data.");
+            return;
         }
-        HttpConnector loginTask = new HttpConnector(this);
-        loginTask.execute();
+        if (!password.equals(confirm_password)) {
+            msgTV.setVisibility(View.VISIBLE);
+            msgTV.setText("Password not matchs.");
+            return;
+        }
+        StringBuilder input = new StringBuilder();
+
+        input.append("api-register");
+        input.append("?username=" + username);
+        input.append("?email=" + email);
+        input.append("&firstName=" + firstName);
+        input.append("&lastName=" + lastName);
+        input.append("&password=" + password);
+        input.append("&phone=" + phone);
+
+        HttpConnector httpConnector = new HttpConnector(this);
+        httpConnector.execute(input.toString());
     }
 
     @Override
@@ -75,8 +103,12 @@ public class SignUpActivity extends AppCompatActivity implements View.OnClickLis
     }
 
 
-    private boolean validParameters(String email, String password) {
-        if (email == null || email.isEmpty() || password == null || password.isEmpty())
+    private boolean validParameters(String firstName, String lastName, String username,
+                                    String email, String password, String confirmPassword, String phone) {
+        if (firstName == null || firstName.isEmpty() || lastName == null
+                || firstName.isEmpty() || username == null || username.isEmpty() || email == null
+                || email.isEmpty() || password == null || password.isEmpty()
+                || confirmPassword == null || confirmPassword.isEmpty() || phone == null || phone.isEmpty())
             return false;
         return true;
     }

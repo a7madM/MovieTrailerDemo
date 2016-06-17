@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
 import movietrailer.auth.CurrentUser;
+import movietrailer.auth.login.LoginActivity;
 import movietrailer.screens.MainScreen;
 
 /**
@@ -31,7 +32,11 @@ public class Splash extends AppCompatActivity {
                 } catch (Exception e) {
                 } finally {
                     CurrentUser currentUser = new CurrentUser(Splash.this);
-                    startLoginActivity();
+                    if (!currentUser.isAuthenticated()) {
+                        startLoginActivity();
+                    } else {
+                        startMainActivity();
+                    }
                 }
             }
         };
@@ -39,6 +44,12 @@ public class Splash extends AppCompatActivity {
     }
 
     private void startLoginActivity() {
+        startActivity(new Intent(Splash.this,
+                LoginActivity.class));
+        finish();
+    }
+
+    private void startMainActivity() {
         startActivity(new Intent(Splash.this,
                 MainScreen.class));
         finish();
