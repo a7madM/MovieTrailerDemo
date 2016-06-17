@@ -1,5 +1,9 @@
 [
     {
+        "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\menu\\filepicker.xml",
+        "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\exploded-aar\\io.filepicker\\filepicker-android\\3.9.0\\res\\menu\\filepicker.xml"
+    },
+    {
         "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
         "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\src\\main\\res\\menu\\main.xml"
     }

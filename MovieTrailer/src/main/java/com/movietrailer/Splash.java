@@ -6,7 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 
 import movietrailer.auth.CurrentUser;
 import movietrailer.auth.login.LoginActivity;
-import movietrailer.screens.MainScreen;
+import movietrailer.screens.mainscreen.MainScreen;
 
 /**
  * Created by a7medM on 3/22/2016.

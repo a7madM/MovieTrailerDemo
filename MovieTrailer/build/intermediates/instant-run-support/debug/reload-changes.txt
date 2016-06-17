@@ -1,0 +1,2 @@
+CHANGED,E:\Faculty\GraduationProject\VideoWorkspace\MovieTrailerDemo\MovieTrailer\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\movietrailer\screens\filepicker\FilePicker$override.class
+CHANGED,E:\Faculty\GraduationProject\VideoWorkspace\MovieTrailerDemo\MovieTrailer\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class

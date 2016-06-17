@@ -28,6 +28,10 @@
         "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\src\\main\\res\\layout\\activity_login.xml"
     },
     {
+        "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_nodes.xml",
+        "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\exploded-aar\\io.filepicker\\filepicker-android\\3.9.0\\res\\layout\\fragment_nodes.xml"
+    },
+    {
         "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
         "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\layout\\design_layout_snackbar.xml"
     },
@@ -52,12 +56,24 @@
         "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\src\\main\\res\\layout\\activity_splash.xml"
     },
     {
+        "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_node.xml",
+        "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\exploded-aar\\io.filepicker\\filepicker-android\\3.9.0\\res\\layout\\list_item_node.xml"
+    },
+    {
+        "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_auth.xml",
+        "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\exploded-aar\\io.filepicker\\filepicker-android\\3.9.0\\res\\layout\\fragment_auth.xml"
+    },
+    {
         "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_create_project.xml",
         "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\src\\main\\res\\layout\\fragment_create_project.xml"
     },
     {
         "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
         "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\layout\\thumbnail_item_node.xml",
+        "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\exploded-aar\\io.filepicker\\filepicker-android\\3.9.0\\res\\layout\\thumbnail_item_node.xml"
     },
     {
         "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
@@ -80,6 +96,10 @@
         "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
     },
     {
+        "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\layout\\thumbnail_item_image_named_image.xml",
+        "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\exploded-aar\\io.filepicker\\filepicker-android\\3.9.0\\res\\layout\\thumbnail_item_image_named_image.xml"
+    },
+    {
         "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
         "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\layout\\design_menu_item_action_area.xml"
     },
@@ -96,6 +116,10 @@
         "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_list_menu_item_icon.xml"
     },
     {
+        "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\layout\\activity_filepicker.xml",
+        "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\exploded-aar\\io.filepicker\\filepicker-android\\3.9.0\\res\\layout\\activity_filepicker.xml"
+    },
+    {
         "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
         "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_part_time.xml"
     },
@@ -104,8 +128,16 @@
         "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_alert_dialog_material.xml"
     },
     {
+        "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\layout\\nodes_lists.xml",
+        "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\exploded-aar\\io.filepicker\\filepicker-android\\3.9.0\\res\\layout\\nodes_lists.xml"
+    },
+    {
         "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\layout\\card_scene.xml",
         "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\src\\main\\res\\layout\\card_scene.xml"
+    },
+    {
+        "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_export.xml",
+        "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\exploded-aar\\io.filepicker\\filepicker-android\\3.9.0\\res\\layout\\fragment_export.xml"
     },
     {
         "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
@@ -242,6 +274,10 @@
     {
         "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\layout\\nav_header_drawer.xml",
         "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\src\\main\\res\\layout\\nav_header_drawer.xml"
+    },
+    {
+        "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\layout\\file_view.xml",
+        "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\src\\main\\res\\layout\\file_view.xml"
     },
     {
         "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\layout\\content_drawer.xml",

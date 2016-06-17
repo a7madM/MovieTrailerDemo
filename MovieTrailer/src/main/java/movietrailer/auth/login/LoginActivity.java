@@ -17,7 +17,7 @@ import org.json.JSONObject;
 
 import movietrailer.auth.CurrentUser;
 import movietrailer.auth.signup.SignUpActivity;
-import movietrailer.screens.MainScreen;
+import movietrailer.screens.mainscreen.MainScreen;
 import movietrailer.utility.HttpConnector;
 
 public class LoginActivity extends AppCompatActivity implements View.OnClickListener, HttpConnector.Callback {

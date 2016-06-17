@@ -4,27 +4,27 @@
     api-level="19"
     density="mdpi"
     format="7"
-    timestamp="107919644768957"
+    timestamp="112097587017299"
     token="-1352761739046574042" >
 
     <task
         name="javac"
-        duration="12120" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="3797" />
+        duration="0" />
     <task
         name="verifier"
-        duration="125" />
+        duration="0" />
 
     <artifact
         location="E:\Faculty\GraduationProject\VideoWorkspace\MovieTrailerDemo\MovieTrailer\build\outputs\apk\MovieTrailer-debug.apk"
         type="MAIN" />
 
-    <build timestamp="107919644768957" >
+    <build timestamp="112097587017299" >
         <artifact
             location="E:\Faculty\GraduationProject\VideoWorkspace\MovieTrailerDemo\MovieTrailer\build\outputs\apk\MovieTrailer-debug.apk"
             type="MAIN" />

@@ -43,7 +43,6 @@
     </layouts>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="HttpConnector" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
     <option name="TOOL_WINDOW_REGEXP_FILTER" value="false" />
   </component>
@@ -68,29 +67,101 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CreateTrailer.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/MovieTrailer/src/main/java/movietrailer/screens/fragments/CreateTrailer.java">
+      <file leaf-file-name="CreateTrailer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MovieTrailer/src/main/java/movietrailer/screens/mainscreen/fragments/CreateTrailer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7758242">
-              <caret line="242" column="9" selection-start-line="242" selection-start-column="9" selection-end-line="242" selection-end-column="9" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="168" column="80" selection-start-line="168" selection-start-column="80" selection-end-line="168" selection-end-column="80" />
               <folding>
-                <element signature="method#onCreateView#0;class#CreateTrailer#0" expanded="false" />
                 <element signature="method#onClickRecyclerView#0;class#CreateTrailer#0" expanded="false" />
                 <element signature="method#ffmpegProcess#0;class#CreateTrailer#0" expanded="false" />
-                <element signature="method#onActivityResult#0;class#CreateTrailer#0" expanded="false" />
                 <element signature="method#getPath#0;class#CreateTrailer#0" expanded="false" />
                 <element signature="method#onFinishedVideoProcessing#0;class#CreateTrailer#0" expanded="false" />
-                <element signature="method#onClick#0;class#CreateTrailer#0" expanded="false" />
+                <element signature="e#6578#6594#0" expanded="false" />
                 <element signature="method#preExecute#0;class#CreateTrailer#0" expanded="false" />
                 <element signature="method#postExecute#0;class#CreateTrailer#0" expanded="false" />
+                <element signature="method#browseFiles#0;class#CreateTrailer#0" expanded="false" />
+                <element signature="method#showFileChooser#0;class#CreateTrailer#0" expanded="false" />
                 <element signature="method#browseMedia#0;class#CreateTrailer#0" expanded="false" />
                 <element signature="method#listFiles#0;class#CreateTrailer#0" expanded="false" />
                 <element signature="method#produceTrailer#0;class#CreateTrailer#0" expanded="false" />
                 <element signature="method#initUI#0;class#CreateTrailer#0" expanded="false" />
                 <element signature="method#initVideoPlayer#0;class#CreateTrailer#0" expanded="false" />
-                <element signature="e#12368#12432#0" expanded="false" />
+                <element signature="e#12630#12694#0" expanded="false" />
                 <element signature="method#initCardView#0;class#CreateTrailer#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FilePicker.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MovieTrailer/src/main/java/movietrailer/screens/filepicker/FilePicker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.56534094">
+              <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+              <folding>
+                <element signature="method#fill#0;class#FilePicker#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileArrayAdapter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MovieTrailer/src/main/java/movietrailer/screens/filepicker/FileArrayAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+              <folding>
+                <element signature="method#FileArrayAdapter#0;class#FileArrayAdapter#0" expanded="false" />
+                <element signature="method#getView#0;class#FileArrayAdapter#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="file_view.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MovieTrailer/src/main/res/layout/file_view.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.509091">
+              <caret line="15" column="35" selection-start-line="7" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Option.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MovieTrailer/src/main/java/movietrailer/screens/filepicker/Option.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainScreen.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MovieTrailer/src/main/java/movietrailer/screens/mainscreen/MainScreen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+              <folding>
+                <element signature="method#onCreateOptionsMenu#0;class#MainScreen#0" expanded="false" />
+                <element signature="method#onOptionsItemSelected#0;class#MainScreen#0" expanded="false" />
+                <element signature="method#logout#0;class#MainScreen#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MovieTrailer/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.259259">
+              <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -2149,7 +2220,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="5863164934393" />
+        <entry key="$PROJECT_DIR$" value="5863222222002" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -2691,13 +2762,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/MovieTrailer/src/main/java/movietrailer/utility/LoginTask.java" />
-        <option value="$PROJECT_DIR$/MovieTrailer/src/main/java/movietrailer/screens/adapters/ViewHolderClickListener.java" />
-        <option value="$PROJECT_DIR$/MovieTrailer/src/main/java/movietrailer/screens/adapters/FoodHolder.java" />
-        <option value="$PROJECT_DIR$/MovieTrailer/src/main/java/movietrailer/screens/adapters/FoodAdapter.java" />
-        <option value="$PROJECT_DIR$/MovieTrailer/src/main/java/movietrailer/screens/database/FoodDS.java" />
-        <option value="$PROJECT_DIR$/MovieTrailer/src/main/java/movietrailer/utility/M.java" />
-        <option value="$PROJECT_DIR$/MovieTrailer/src/main/java/movietrailer/screens/database/DBHelper.java" />
         <option value="$PROJECT_DIR$/MovieTrailer/src/main/java/movietrailer/screens/database/Callback.java" />
         <option value="$PROJECT_DIR$/MovieTrailer/src/main/java/movietrailer/screens/database/SceneDBHelper.java" />
         <option value="$PROJECT_DIR$/MovieTrailer/src/main/res/layout/card_scene.xml" />
@@ -2721,10 +2785,8 @@
         <option value="$PROJECT_DIR$/MovieTrailer/src/main/java/movietrailer/screens/Drawer.java" />
         <option value="$PROJECT_DIR$/MovieTrailer/src/main/java/movietrailer/utility/ToolbarActivity.java" />
         <option value="$PROJECT_DIR$/MovieTrailer/src/main/res/menu/main.xml" />
-        <option value="$PROJECT_DIR$/MovieTrailer/src/main/java/movietrailer/screens/MainScreen.java" />
         <option value="$PROJECT_DIR$/MovieTrailer/src/main/res/layout/fragment_create_project.xml" />
         <option value="$PROJECT_DIR$/MovieTrailer/src/main/java/movietrailer/utility/VideoProcessor.java" />
-        <option value="$PROJECT_DIR$/MovieTrailer/build.gradle" />
         <option value="$PROJECT_DIR$/MovieTrailer/src/main/java/movietrailer/auth/CurrentUser.java" />
         <option value="$PROJECT_DIR$/MovieTrailer/build/intermediates/bundles/debug/instant-run/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/MovieTrailer/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
@@ -2741,7 +2803,16 @@
         <option value="$PROJECT_DIR$/MovieTrailer/src/main/java/movietrailer/auth/signup/SignUpActivity.java" />
         <option value="$PROJECT_DIR$/MovieTrailer/src/main/java/movietrailer/screens/fragments/WebViewFragment.java" />
         <option value="$PROJECT_DIR$/MovieTrailer/src/main/res/layout/activity_drawer.xml" />
+        <option value="$PROJECT_DIR$/MovieTrailer/src/main/java/movietrailer/screens/MainScreen.java" />
+        <option value="$PROJECT_DIR$/MovieTrailer/build.gradle" />
+        <option value="$PROJECT_DIR$/MovieTrailer/src/main/res/layout/activity_file_picker.xml" />
+        <option value="$PROJECT_DIR$/MovieTrailer/src/main/java/movietrailer/screens/FilePicker.java" />
         <option value="$PROJECT_DIR$/MovieTrailer/src/main/java/movietrailer/screens/fragments/CreateTrailer.java" />
+        <option value="$PROJECT_DIR$/MovieTrailer/src/main/java/movietrailer/screens/mainscreen/MainScreen.java" />
+        <option value="$PROJECT_DIR$/MovieTrailer/src/main/java/movietrailer/screens/filepicker/Option.java" />
+        <option value="$PROJECT_DIR$/MovieTrailer/src/main/res/layout/file_view.xml" />
+        <option value="$PROJECT_DIR$/MovieTrailer/src/main/java/movietrailer/screens/filepicker/FileArrayAdapter.java" />
+        <option value="$PROJECT_DIR$/MovieTrailer/src/main/java/movietrailer/screens/filepicker/FilePicker.java" />
       </list>
     </option>
   </component>
@@ -2933,6 +3004,10 @@
               <option name="myItemId" value="screens" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mainscreen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -2968,7 +3043,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="fragments" />
+              <option name="myItemId" value="filepicker" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -3013,6 +3088,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="movietrailer.screens.filepicker" />
+      <recent name="movietrailer.screens.mainscreen" />
       <recent name="movietrailer.utility" />
       <recent name="movietrailer.utility.login" />
     </key>
@@ -3330,7 +3407,8 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3668942" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17576791" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35153583" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -3350,7 +3428,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -3408,29 +3485,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://E:/Android/androidstudioSDK/extras/android/m2repository/com/android/support/support-v4/23.3.0/support-v4-23.3.0-sources.jar!/android/support/v4/widget/DrawerLayout.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MovieTrailer/src/main/res/values/colors.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.2692308">
-          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MovieTrailer/src/main/res/values/dimens.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.1923075">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MovieTrailer/src/main/res/layout/activity_main.xml">
       <provider editor-type-id="android-designer">
         <state />
@@ -3453,26 +3507,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MovieTrailer/src/main/java/movietrailer/screens/fragments/CreateTrailer.java">
+    <entry file="file://$PROJECT_DIR$/MovieTrailer/src/main/java/movietrailer/screens/mainscreen/fragments/CreateTrailer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="method#onCreateView#0;class#CreateTrailer#0" expanded="false" />
             <element signature="method#onClickRecyclerView#0;class#CreateTrailer#0" expanded="false" />
             <element signature="method#ffmpegProcess#0;class#CreateTrailer#0" expanded="false" />
-            <element signature="method#onActivityResult#0;class#CreateTrailer#0" expanded="false" />
             <element signature="method#getPath#0;class#CreateTrailer#0" expanded="false" />
             <element signature="method#onFinishedVideoProcessing#0;class#CreateTrailer#0" expanded="false" />
-            <element signature="method#onClick#0;class#CreateTrailer#0" expanded="false" />
+            <element signature="e#6578#6594#0" expanded="false" />
             <element signature="method#preExecute#0;class#CreateTrailer#0" expanded="false" />
             <element signature="method#postExecute#0;class#CreateTrailer#0" expanded="false" />
+            <element signature="method#browseFiles#0;class#CreateTrailer#0" expanded="false" />
+            <element signature="method#showFileChooser#0;class#CreateTrailer#0" expanded="false" />
             <element signature="method#browseMedia#0;class#CreateTrailer#0" expanded="false" />
             <element signature="method#listFiles#0;class#CreateTrailer#0" expanded="false" />
             <element signature="method#produceTrailer#0;class#CreateTrailer#0" expanded="false" />
             <element signature="method#initUI#0;class#CreateTrailer#0" expanded="false" />
             <element signature="method#initVideoPlayer#0;class#CreateTrailer#0" expanded="false" />
-            <element signature="e#12368#12432#0" expanded="false" />
+            <element signature="e#12630#12694#0" expanded="false" />
             <element signature="method#initCardView#0;class#CreateTrailer#0" expanded="false" />
           </folding>
         </state>
@@ -3528,7 +3582,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MovieTrailer/src/main/java/movietrailer/screens/adapters/ViewHolderClickListener.java">
+    <entry file="file://$PROJECT_DIR$/MovieTrailer/src/main/java/movietrailer/screens/mainscreen/adapters/ViewHolderClickListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.21326165">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
@@ -3594,7 +3648,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MovieTrailer/src/main/java/movietrailer/screens/entities/Scene.java">
+    <entry file="file://$PROJECT_DIR$/MovieTrailer/src/main/java/movietrailer/screens/mainscreen/entities/Scene.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.9008746">
           <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
@@ -3609,14 +3663,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MovieTrailer/src/main/java/movietrailer/screens/adapters/SceneHolder.java">
+    <entry file="file://$PROJECT_DIR$/MovieTrailer/src/main/java/movietrailer/screens/mainscreen/adapters/SceneHolder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.39605734">
           <caret line="18" column="85" selection-start-line="18" selection-start-column="85" selection-end-line="18" selection-end-column="85" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MovieTrailer/src/main/java/movietrailer/screens/adapters/SceneAdapter.java">
+    <entry file="file://$PROJECT_DIR$/MovieTrailer/src/main/java/movietrailer/screens/mainscreen/adapters/SceneAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.48207885">
           <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
@@ -3693,6 +3747,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3024911">
           <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <folding>
+            <element signature="docComment;class#CurrentUser#0" expanded="false" />
+            <element signature="method#CurrentUser#0;class#CurrentUser#0" expanded="false" />
+            <element signature="method#authenticated#0;class#CurrentUser#0" expanded="false" />
+            <element signature="method#isAuthenticated#0;class#CurrentUser#0" expanded="false" />
+            <element signature="method#setSession_token#0;class#CurrentUser#0" expanded="false" />
+            <element signature="method#setUserEmail#0;class#CurrentUser#0" expanded="false" />
+            <element signature="method#logOut#0;class#CurrentUser#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -3739,13 +3802,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MovieTrailer/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6937984">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MovieTrailer/src/main/java/com/movietrailer/Splash.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7906977">
@@ -3780,6 +3836,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.46124032">
           <caret line="68" column="22" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -3787,6 +3846,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7364341">
           <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3797,17 +3857,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MovieTrailer/src/main/java/movietrailer/screens/MainScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MovieTrailer/src/main/java/movietrailer/screens/fragments/WebViewFragment.java">
+    <entry file="file://$PROJECT_DIR$/MovieTrailer/src/main/java/movietrailer/screens/mainscreen/fragments/WebViewFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.34108528">
           <caret line="29" column="57" selection-start-line="29" selection-start-column="57" selection-end-line="29" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -3822,27 +3878,159 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MovieTrailer/src/main/java/movietrailer/screens/fragments/CreateTrailer.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.filepicker/filepicker-android/3.9.0/6b6f051079556a99e24e3bfada34ac17bb0d4bf5/filepicker-android-3.9.0-sources.jar!/io/filepicker/Filepicker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7758242">
-          <caret line="242" column="9" selection-start-line="242" selection-start-column="9" selection-end-line="242" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.48295453">
+          <caret line="115" column="0" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
           <folding>
-            <element signature="method#onCreateView#0;class#CreateTrailer#0" expanded="false" />
+            <element signature="method#setKey#0;class#Filepicker#0" expanded="false" />
+            <element signature="method#uploadLocalFile#0;class#Filepicker#0" expanded="false" />
+            <element signature="method#uploadLocalFile#1;class#Filepicker#0" expanded="false" />
+            <element signature="method#unregistedLocalFileUploadCallbacks#0;class#Filepicker#0" expanded="false" />
+            <element signature="method#handleSingleProviderScenario#0;class#Filepicker#0" expanded="false" />
+            <element signature="method#initSavedState#0;class#Filepicker#0" expanded="false" />
+            <element signature="method#initOptions#0;class#Filepicker#0" expanded="false" />
+            <element signature="method#onSaveInstanceState#0;class#Filepicker#0" expanded="false" />
+            <element signature="method#onResume#0;class#Filepicker#0" expanded="false" />
+            <element signature="method#onPause#0;class#Filepicker#0" expanded="false" />
+            <element signature="method#onBackPressed#0;class#Filepicker#0" expanded="false" />
+            <element signature="method#onDestroy#0;class#Filepicker#0" expanded="false" />
+            <element signature="method#getContent#0;class#Filepicker#0" expanded="false" />
+            <element signature="method#showFolderContent#0;class#Filepicker#0" expanded="false" />
+            <element signature="method#refreshFragment#0;class#Filepicker#0" expanded="false" />
+            <element signature="method#getContentFragment#0;class#Filepicker#0" expanded="false" />
+            <element signature="method#showProvidersList#0;class#Filepicker#0" expanded="false" />
+            <element signature="method#getProvidersFragment#0;class#Filepicker#0" expanded="false" />
+            <element signature="method#onEvent#0;class#Filepicker#0" expanded="false" />
+            <element signature="method#showAuthFragment#0;class#Filepicker#0" expanded="false" />
+            <element signature="method#onEvent#1;class#Filepicker#0" expanded="false" />
+            <element signature="method#onEvent#2;class#Filepicker#0" expanded="false" />
+            <element signature="method#showErrorMessage#0;class#Filepicker#0" expanded="false" />
+            <element signature="method#onEvent#3;class#Filepicker#0" expanded="false" />
+            <element signature="method#onEvent#4;class#Filepicker#0" expanded="false" />
+            <element signature="method#proceedAfterAuth#0;class#Filepicker#0" expanded="false" />
+            <element signature="method#pickFiles#0;class#Filepicker#0" expanded="false" />
+            <element signature="method#removeLastNode#0;class#Filepicker#0" expanded="false" />
+            <element signature="method#showNextNode#0;class#Filepicker#0" expanded="false" />
+            <element signature="method#refreshCurrentlyDisplayedNode#0;class#Filepicker#0" expanded="false" />
+            <element signature="method#setTitle#0;class#Filepicker#0" expanded="false" />
+            <element signature="method#exportFile#0;class#Filepicker#0" expanded="false" />
+            <element signature="method#openCamera#0;class#Filepicker#0" expanded="false" />
+            <element signature="method#recordVideo#0;class#Filepicker#0" expanded="false" />
+            <element signature="method#takePhoto#0;class#Filepicker#0" expanded="false" />
+            <element signature="method#openGallery#0;class#Filepicker#0" expanded="false" />
+            <element signature="method#uploadLocalFile#2;class#Filepicker#0" expanded="false" />
+            <element signature="method#onOptionsItemSelected#0;class#Filepicker#0" expanded="false" />
+            <element signature="method#onActivityResult#0;class#Filepicker#0" expanded="false" />
+            <element signature="method#showLoading#0;class#Filepicker#0" expanded="false" />
+            <element signature="method#hideLoading#0;class#Filepicker#0" expanded="false" />
+            <element signature="method#updateLoadingView#0;class#Filepicker#0" expanded="false" />
+            <element signature="method#setCameraImageUri#0;class#Filepicker#0" expanded="false" />
+            <element signature="method#isValidExportRequest#0;class#Filepicker#0" expanded="false" />
+            <element signature="method#showCachedNode#0;class#Filepicker#0" expanded="false" />
+            <element signature="class#25097:26215" expanded="false" />
+            <element signature="method#doInBackground#0;class#25097:26215" expanded="false" />
+            <element signature="method#clearCachedFiles#0;class#Filepicker#0" expanded="false" />
+            <element signature="class#CacheGotItemsTask#0;class#Filepicker#0" expanded="false" />
+            <element signature="method#CacheGotItemsTask#0;class#CacheGotItemsTask#0;class#Filepicker#0" expanded="false" />
+            <element signature="method#doInBackground#0;class#CacheGotItemsTask#0;class#Filepicker#0" expanded="false" />
+            <element signature="method#isOnlyVideoCamera#0;class#Filepicker#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MovieTrailer/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.259259">
+          <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MovieTrailer/src/main/res/layout/file_view.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MovieTrailer/src/main/java/movietrailer/screens/mainscreen/fragments/CreateTrailer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="168" column="80" selection-start-line="168" selection-start-column="80" selection-end-line="168" selection-end-column="80" />
+          <folding>
             <element signature="method#onClickRecyclerView#0;class#CreateTrailer#0" expanded="false" />
             <element signature="method#ffmpegProcess#0;class#CreateTrailer#0" expanded="false" />
-            <element signature="method#onActivityResult#0;class#CreateTrailer#0" expanded="false" />
             <element signature="method#getPath#0;class#CreateTrailer#0" expanded="false" />
             <element signature="method#onFinishedVideoProcessing#0;class#CreateTrailer#0" expanded="false" />
-            <element signature="method#onClick#0;class#CreateTrailer#0" expanded="false" />
+            <element signature="e#6578#6594#0" expanded="false" />
             <element signature="method#preExecute#0;class#CreateTrailer#0" expanded="false" />
             <element signature="method#postExecute#0;class#CreateTrailer#0" expanded="false" />
+            <element signature="method#browseFiles#0;class#CreateTrailer#0" expanded="false" />
+            <element signature="method#showFileChooser#0;class#CreateTrailer#0" expanded="false" />
             <element signature="method#browseMedia#0;class#CreateTrailer#0" expanded="false" />
             <element signature="method#listFiles#0;class#CreateTrailer#0" expanded="false" />
             <element signature="method#produceTrailer#0;class#CreateTrailer#0" expanded="false" />
             <element signature="method#initUI#0;class#CreateTrailer#0" expanded="false" />
             <element signature="method#initVideoPlayer#0;class#CreateTrailer#0" expanded="false" />
-            <element signature="e#12368#12432#0" expanded="false" />
+            <element signature="e#12630#12694#0" expanded="false" />
             <element signature="method#initCardView#0;class#CreateTrailer#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MovieTrailer/src/main/java/movietrailer/screens/mainscreen/MainScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="method#onCreateOptionsMenu#0;class#MainScreen#0" expanded="false" />
+            <element signature="method#onOptionsItemSelected#0;class#MainScreen#0" expanded="false" />
+            <element signature="method#logout#0;class#MainScreen#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MovieTrailer/src/main/java/movietrailer/screens/filepicker/Option.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MovieTrailer/src/main/res/layout/file_view.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.509091">
+          <caret line="15" column="35" selection-start-line="7" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MovieTrailer/src/main/java/movietrailer/screens/filepicker/FileArrayAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+          <folding>
+            <element signature="method#FileArrayAdapter#0;class#FileArrayAdapter#0" expanded="false" />
+            <element signature="method#getView#0;class#FileArrayAdapter#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MovieTrailer/src/main/java/movietrailer/screens/filepicker/FilePicker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.56534094">
+          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding>
+            <element signature="method#fill#0;class#FilePicker#0" expanded="false" />
           </folding>
         </state>
       </provider>

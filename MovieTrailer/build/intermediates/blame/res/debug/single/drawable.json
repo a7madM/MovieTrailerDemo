@@ -4,16 +4,16 @@
         "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_switch_thumb_material.xml"
     },
     {
-        "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
-        "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+        "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\drawable\\glyphicons_008_film.png",
+        "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\exploded-aar\\io.filepicker\\filepicker-android\\3.9.0\\res\\drawable\\glyphicons_008_film.png"
     },
     {
-        "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_dark.xml",
-        "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_dialog_material_background_dark.xml"
+        "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\drawable\\glyphicons_036_file.png",
+        "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\exploded-aar\\io.filepicker\\filepicker-android\\3.9.0\\res\\drawable\\glyphicons_036_file.png"
     },
     {
-        "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_full_material.xml",
-        "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_ratingbar_full_material.xml"
+        "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\drawable\\gdrive.png",
+        "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\exploded-aar\\io.filepicker\\filepicker-android\\3.9.0\\res\\drawable\\gdrive.png"
     },
     {
         "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
@@ -24,76 +24,52 @@
         "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_ratingbar_indicator_material.xml"
     },
     {
-        "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
-        "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\drawable\\design_fab_background.xml"
-    },
-    {
-        "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_register.xml",
-        "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\src\\main\\res\\drawable\\btn_register.xml"
-    },
-    {
         "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
         "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_seekbar_thumb_material.xml"
     },
     {
-        "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
-        "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_btn_colored_material.xml"
+        "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\drawable\\glyphicons_381_github.png",
+        "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\exploded-aar\\io.filepicker\\filepicker-android\\3.9.0\\res\\drawable\\glyphicons_381_github.png"
+    },
+    {
+        "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_amazon_cloud_drive.png",
+        "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\exploded-aar\\io.filepicker\\filepicker-android\\3.9.0\\res\\drawable\\ic_amazon_cloud_drive.png"
     },
     {
         "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
         "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\drawable\\design_snackbar_background.xml"
     },
     {
-        "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
-        "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_btn_radio_material.xml"
-    },
-    {
-        "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\drawable\\edit_text_bg.xml",
-        "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\src\\main\\res\\drawable\\edit_text_bg.xml"
-    },
-    {
         "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
         "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_list_selector_holo_dark.xml"
-    },
-    {
-        "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
-        "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_tab_indicator_material.xml"
-    },
-    {
-        "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
-        "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_btn_borderless_material.xml"
     },
     {
         "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
         "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_spinner_textfield_background_material.xml"
     },
     {
-        "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
-        "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_textfield_search_material.xml"
+        "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\drawable\\glyphicons_154_show_big_thumbnails.png",
+        "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\exploded-aar\\io.filepicker\\filepicker-android\\3.9.0\\res\\drawable\\glyphicons_154_show_big_thumbnails.png"
     },
     {
         "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_fill.xml",
         "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\src\\main\\res\\drawable\\btn_fill.xml"
     },
     {
-        "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
-        "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_cab_background_top_material.xml"
+        "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\drawable\\glyphicons_399_email.png",
+        "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\exploded-aar\\io.filepicker\\filepicker-android\\3.9.0\\res\\drawable\\glyphicons_399_email.png"
     },
     {
         "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
         "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_list_selector_holo_light.xml"
     },
     {
-        "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
-        "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_seekbar_track_material.xml"
+        "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\drawable\\glyphicons_366_picasa.png",
+        "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\exploded-aar\\io.filepicker\\filepicker-android\\3.9.0\\res\\drawable\\glyphicons_366_picasa.png"
     },
     {
-        "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
-        "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_btn_check_material.xml"
-    },
-    {
-        "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
-        "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_cab_background_internal_bg.xml"
+        "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\drawable\\glyphicons_361_dropbox.png",
+        "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\exploded-aar\\io.filepicker\\filepicker-android\\3.9.0\\res\\drawable\\glyphicons_361_dropbox.png"
     },
     {
         "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
@@ -104,12 +80,8 @@
         "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
     },
     {
-        "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
-        "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_edit_text_material.xml"
-    },
-    {
-        "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_light.xml",
-        "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_dialog_material_background_light.xml"
+        "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\drawable\\select.png",
+        "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\exploded-aar\\io.filepicker\\filepicker-android\\3.9.0\\res\\drawable\\select.png"
     },
     {
         "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
@@ -122,5 +94,101 @@
     {
         "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
         "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_dark.xml",
+        "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_dialog_material_background_dark.xml"
+    },
+    {
+        "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_full_material.xml",
+        "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_ratingbar_full_material.xml"
+    },
+    {
+        "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
+        "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\drawable\\design_fab_background.xml"
+    },
+    {
+        "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_register.xml",
+        "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\src\\main\\res\\drawable\\btn_register.xml"
+    },
+    {
+        "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\drawable\\glyphicons_011_camera.png",
+        "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\exploded-aar\\io.filepicker\\filepicker-android\\3.9.0\\res\\drawable\\glyphicons_011_camera.png"
+    },
+    {
+        "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\drawable\\evernote.png",
+        "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\exploded-aar\\io.filepicker\\filepicker-android\\3.9.0\\res\\drawable\\evernote.png"
+    },
+    {
+        "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\drawable\\onedrive.png",
+        "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\exploded-aar\\io.filepicker\\filepicker-android\\3.9.0\\res\\drawable\\onedrive.png"
+    },
+    {
+        "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\drawable\\edit_text_bg.xml",
+        "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\src\\main\\res\\drawable\\edit_text_bg.xml"
+    },
+    {
+        "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\drawable\\instagram.png",
+        "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\exploded-aar\\io.filepicker\\filepicker-android\\3.9.0\\res\\drawable\\instagram.png"
+    },
+    {
+        "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\drawable\\glyphicons_390_facebook.png",
+        "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\exploded-aar\\io.filepicker\\filepicker-android\\3.9.0\\res\\drawable\\glyphicons_390_facebook.png"
+    },
+    {
+        "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\drawable\\glyphicons_395_flickr.png",
+        "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\exploded-aar\\io.filepicker\\filepicker-android\\3.9.0\\res\\drawable\\glyphicons_395_flickr.png"
+    },
+    {
+        "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\drawable\\glyphicons_144_folder_open.png",
+        "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\exploded-aar\\io.filepicker\\filepicker-android\\3.9.0\\res\\drawable\\glyphicons_144_folder_open.png"
+    },
+    {
+        "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_light.xml",
+        "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_dialog_material_background_light.xml"
+    },
+    {
+        "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_edit_text_material.xml"
     }
 ]

@@ -5,7 +5,7 @@
     android:layout_marginTop="10dp"
     android:orientation="vertical"
     android:padding="10dp"
-    tools:context="movietrailer.screens.fragments.CreateTrailer">
+    tools:context="movietrailer.screens.mainscreen.fragments.CreateTrailer">
 
     <TextView
         android:layout_width="match_parent"
