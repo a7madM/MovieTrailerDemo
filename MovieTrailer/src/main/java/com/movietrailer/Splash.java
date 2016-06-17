@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
 import movietrailer.auth.CurrentUser;
-import movietrailer.auth.login.LoginActivity;
 import movietrailer.screens.mainscreen.MainScreen;
 
 /**
@@ -45,7 +44,7 @@ public class Splash extends AppCompatActivity {
 
     private void startLoginActivity() {
         startActivity(new Intent(Splash.this,
-                LoginActivity.class));
+                MainScreen.class));
         finish();
     }
 

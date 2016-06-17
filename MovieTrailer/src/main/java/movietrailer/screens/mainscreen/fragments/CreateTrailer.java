@@ -1,5 +1,6 @@
 package movietrailer.screens.mainscreen.fragments;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.database.Cursor;
 import android.net.Uri;
@@ -18,7 +19,6 @@ import android.widget.LinearLayout;
 import android.widget.MediaController;
 import android.widget.ProgressBar;
 import android.widget.TextView;
-import android.widget.Toast;
 import android.widget.VideoView;
 
 import com.movietrailer.R;
@@ -32,11 +32,11 @@ import movietrailer.screens.filepicker.FilePicker;
 import movietrailer.screens.mainscreen.adapters.SceneAdapter;
 import movietrailer.screens.mainscreen.adapters.ViewHolderClickListener;
 import movietrailer.screens.mainscreen.entities.Scene;
-import movietrailer.utility.HttpConnector;
 import movietrailer.utility.M;
-import movietrailer.utility.VideoProcessor;
+import movietrailer.utility.UploadToServer;
+import movietrailer.utility.VideoUtils;
 
-public class CreateTrailer extends Fragment implements View.OnClickListener, ViewHolderClickListener, VideoProcessor.Communicator, HttpConnector.Callback {
+public class CreateTrailer extends Fragment implements View.OnClickListener, ViewHolderClickListener, VideoUtils.Communicator, UploadToServer.Callback {
 
     private Button choose_subtitle_Btn, upload_subtitle_Btn, choose_movie_Btn, produce_Btn;
     private EditText subtitle_path_Ed, movie_path_Ed;
@@ -53,7 +53,7 @@ public class CreateTrailer extends Fragment implements View.OnClickListener, Vie
     private LinearLayout linearLayout;
 
     // Video Processing
-    private VideoProcessor videoProcessor;
+    private VideoUtils videoUtils;
     private String start[] = {"00:01:00", "00:02:00", "00:03:00", "00:04:00"
             , "00:05:00", "00:06:00", "00:07:00", "00:08:00", "00:09:00", "00:10:00"};
     private int partNumber;
@@ -62,7 +62,6 @@ public class CreateTrailer extends Fragment implements View.OnClickListener, Vie
 
     private String LOG_TAG = CreateTrailer.class.getSimpleName();
 
-    HttpConnector httpConnector;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -79,7 +78,7 @@ public class CreateTrailer extends Fragment implements View.OnClickListener, Vie
     }
 
     private void ffmpegProcess(String startTime, int partNumber) throws Exception {
-        int duration = new Random().nextInt(3) + 3;
+        int duration = new Random().nextInt(10) + 10;
         Log.d(LOG_TAG, "Part " + partNumber + ", Duration " + duration);
         File directory = new File(PARTS_DIRECTORY);
         boolean exist = directory.exists();
@@ -89,17 +88,17 @@ public class CreateTrailer extends Fragment implements View.OnClickListener, Vie
             Log.d(LOG_TAG, "Create " + created);
         }
 
-        String command = "ffmpeg -y -i " + movie_path + " -strict experimental -ss " + startTime
+        String command = " -y -i " + movie_path + " -strict experimental -ss " + startTime
                 + " -codec copy -t " + duration + " " + PARTS_DIRECTORY + "part" + partNumber + ".avi";
-        videoProcessor = new VideoProcessor(getActivity(), false, movie_path, CreateTrailer.this);
-        videoProcessor.execute(command);
+        videoUtils = new VideoUtils(getActivity(), false, CreateTrailer.this);
+        videoUtils.execFFmpegBinary(command);
     }
 
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
+        Log.d(LOG_TAG, "Request Code " + requestCode);
         super.onActivityResult(requestCode, resultCode, data);
-        if (requestCode == 1 && resultCode != 0) {
-            Log.d("resultCode", "resultCode " + resultCode + " requestCode " + requestCode);
+        if (requestCode == 1 && resultCode == Activity.RESULT_OK) {
             Uri selectedImageUri = data.getData();
             String selectedImagePath = null;
             try {
@@ -108,6 +107,9 @@ public class CreateTrailer extends Fragment implements View.OnClickListener, Vie
                 Log.e(LOG_TAG, "Exception Get URI " + e);
             }
             movie_path_Ed.setText(selectedImagePath);
+        } else if (requestCode == 2 && resultCode == Activity.RESULT_OK) {
+            String filePath = data.getStringExtra("filePath");
+            subtitle_path_Ed.setText(filePath);
         }
     }
 
@@ -124,12 +126,7 @@ public class CreateTrailer extends Fragment implements View.OnClickListener, Vie
     }
 
     @Override
-    public void onFinishedVideoProcessing(String status, boolean stat) {
-        if (!stat) {
-            Log.d(LOG_TAG, "Finished " + partNumber + " With Status " + status);
-        } else {
-            Log.d(LOG_TAG, "Finished " + partNumber + " With Status " + status);
-        }
+    public void onFinishedVideoProcessing(boolean stat) {
         if (!stat) {
             producing_progress_bar.setProgress(partNumber + 1);
             int percent = ((partNumber + 1) * 100) / start.length;
@@ -147,9 +144,13 @@ public class CreateTrailer extends Fragment implements View.OnClickListener, Vie
                 } catch (Exception e) {
                     Log.e(LOG_TAG, "listFile " + e);
                 }
-                String commandConcat = "ffmpeg -f concat -i storage/sdcard1/Movies/parts.txt -c copy /sdcard/Movies/movietrailer.avi";
-                videoProcessor = new VideoProcessor(getActivity(), true, "storage/sdcard1/Movies/parts.txt", CreateTrailer.this);
-                videoProcessor.execute(commandConcat);
+                String commandConcat = " -f concat -i storage/sdcard1/Movies/parts.txt -c copy /sdcard/Movies/movietrailer.avi";
+                videoUtils = new VideoUtils(getActivity(), true, CreateTrailer.this);
+                try {
+                    videoUtils.execFFmpegBinary(commandConcat);
+                } catch (Exception e) {
+                    Log.e(LOG_TAG, "E " + e);
+                }
             }
         } else {
             try {
@@ -166,15 +167,11 @@ public class CreateTrailer extends Fragment implements View.OnClickListener, Vie
         switch (viewId) {
             case R.id.choose_subtitle_Btn:
                 try {
-                    Intent intent = new Intent(getActivity(), FilePicker.class);
-                    startActivity(intent);
-                    //browseFiles();
-                    // showFileChooser();
+                    browseFiles();
                 } catch (Exception e) {
                     Log.e(LOG_TAG, "browseFiles " + e);
                 }
                 break;
-
             case R.id.choose_movie_Btn:
                 try {
                     browseMedia();
@@ -188,11 +185,11 @@ public class CreateTrailer extends Fragment implements View.OnClickListener, Vie
                 String subtitle_path = subtitle_path_Ed.getText().toString();
                 if (subtitle_path == null || subtitle_path.isEmpty()) {
                     M.msg(getActivity(), "Choose Your Subtitle Please..");
-                    // return;
+                    //return;
                 }
 
-                httpConnector = new HttpConnector(CreateTrailer.this);
-                httpConnector.execute();
+                UploadToServer uploadToServer = new UploadToServer(CreateTrailer.this);
+                uploadToServer.execute(subtitle_path);
                 break;
 
             case R.id.produce_Btn:
@@ -207,7 +204,7 @@ public class CreateTrailer extends Fragment implements View.OnClickListener, Vie
 
     @Override
     public void preExecute() {
-
+        Log.d(LOG_TAG, "Pre Execute");
     }
 
     @Override
@@ -223,27 +220,8 @@ public class CreateTrailer extends Fragment implements View.OnClickListener, Vie
     }
 
     private void browseFiles() throws Exception {
-        Intent intent = new Intent(Intent.ACTION_GET_CONTENT);
-        Uri uri = Uri.parse("sdcard/Movies"); // a directory
-        intent.setDataAndType(uri, "*/*");
-        startActivity(Intent.createChooser(intent, "Open folder"));
-    }
-
-    private static final int FILE_SELECT_CODE = 0;
-
-    private void showFileChooser() {
-        Intent intent = new Intent(Intent.ACTION_GET_CONTENT);
-        intent.setType("*/*");
-        intent.addCategory(Intent.CATEGORY_OPENABLE);
-        try {
-            startActivityForResult(
-                    Intent.createChooser(intent, "Select a File to Upload"),
-                    FILE_SELECT_CODE);
-        } catch (android.content.ActivityNotFoundException ex) {
-            // Potentially direct the user to the Market with a Dialog
-            Toast.makeText(getActivity(), "Please install a File Manager.",
-                    Toast.LENGTH_SHORT).show();
-        }
+        Intent intent = new Intent(getActivity(), FilePicker.class);
+        startActivityForResult(intent, 2);
     }
 
 
@@ -325,8 +303,8 @@ public class CreateTrailer extends Fragment implements View.OnClickListener, Vie
         controller.setAnchorView(trailer_video);
         controller.setMediaPlayer(trailer_video);
         trailer_video.setMediaController(controller);
-        //trailer_video.setVideoPath("/sdcard/Movies/movietrailer.avi");
-        //trailer_video.start();
+        trailer_video.setVideoPath("/sdcard/Movies/movietrailer.avi");
+        trailer_video.start();
     }
 
     private void initCardView(List<Scene> sceneList) throws Exception {

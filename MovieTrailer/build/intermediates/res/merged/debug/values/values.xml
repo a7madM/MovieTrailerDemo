@@ -306,6 +306,7 @@
     <string name="commandTextView">This command will rotate /sdcard/videokit/in.mp4 90 degrees, and create /sdcard/videokit/out.mp4:</string>
     <string name="email">android@netcompss.com</string>
     <string name="full_app_name">FFmpeg4Android Demo</string>
+    <string name="shipped_ffmpeg_version">n2.4.2</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="welcome_1">Simple example using a AsyncTask without progress bar.\n
     When using this technique, you will not be able to stop the operation while its running.</string>

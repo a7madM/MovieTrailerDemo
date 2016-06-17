@@ -44,7 +44,7 @@
             android:enabled="false"
             android:hint="Subtitle Path"
             android:padding="10dp"
-            android:visibility="gone" />
+            android:visibility="visible" />
 
 
         <Button

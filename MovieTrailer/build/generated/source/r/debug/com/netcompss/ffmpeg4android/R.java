@@ -18,10 +18,10 @@ public final class R {
 		public static final int commandTextView = 0x7f06001e;
 		public static final int email = 0x7f06001f;
 		public static final int full_app_name = 0x7f060020;
-		public static final int welcome_1 = 0x7f060021;
-		public static final int welcome_2 = 0x7f060022;
-		public static final int welcome_3 = 0x7f060023;
-		public static final int welcome_demo = 0x7f060024;
+		public static final int welcome_1 = 0x7f060022;
+		public static final int welcome_2 = 0x7f060023;
+		public static final int welcome_3 = 0x7f060024;
+		public static final int welcome_demo = 0x7f060025;
 	}
 	public static final class style {
 		public static final int h1 = 0x7f090162;
