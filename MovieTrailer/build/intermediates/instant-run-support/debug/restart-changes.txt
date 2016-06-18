@@ -1,2 +1,0 @@
-CHANGED,E:\Faculty\GraduationProject\VideoWorkspace\MovieTrailerDemo\MovieTrailer\build\intermediates\transforms\instantRun\debug\folders\1\5\main\movietrailer\screens\mainscreen\fragments\CreateTrailer.class
-CHANGED,E:\Faculty\GraduationProject\VideoWorkspace\MovieTrailerDemo\MovieTrailer\build\intermediates\transforms\instantRun\debug\folders\1\5\main\movietrailer\utility\UploadToServer.class

@@ -4,7 +4,7 @@
     api-level="19"
     density="mdpi"
     format="7"
-    timestamp="120013128324388"
+    timestamp="6192665660745"
     token="-1352761739046574042" >
 
     <task
@@ -20,50 +20,12 @@
         name="verifier"
         duration="0" />
 
-    <artifact
-        location="E:\Faculty\GraduationProject\VideoWorkspace\MovieTrailerDemo\MovieTrailer\build\intermediates\res\resources-debug.ap_"
-        type="RESOURCES" />
-
-    <build timestamp="119514418608098" >
+    <build timestamp="5602178228235" >
         <artifact
             location="E:\Faculty\GraduationProject\VideoWorkspace\MovieTrailerDemo\MovieTrailer\build\outputs\apk\MovieTrailer-debug.apk"
             type="MAIN" />
     </build>
-    <build
-        timestamp="119667728264253"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="E:\Faculty\GraduationProject\VideoWorkspace\MovieTrailerDemo\MovieTrailer\build\intermediates\builds\debug\119667728264253\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="119705152939450"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="E:\Faculty\GraduationProject\VideoWorkspace\MovieTrailerDemo\MovieTrailer\build\intermediates\builds\debug\119705152939450\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="119885602648601"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="E:\Faculty\GraduationProject\VideoWorkspace\MovieTrailerDemo\MovieTrailer\build\intermediates\builds\debug\119885602648601\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="119914994243840"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="E:\Faculty\GraduationProject\VideoWorkspace\MovieTrailerDemo\MovieTrailer\build\intermediates\builds\debug\119914994243840\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="119965402478459"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="E:\Faculty\GraduationProject\VideoWorkspace\MovieTrailerDemo\MovieTrailer\build\intermediates\builds\debug\119965402478459\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
+    <build timestamp="6192665660745" />
     <build timestamp="120013128324388" >
         <artifact
             location="E:\Faculty\GraduationProject\VideoWorkspace\MovieTrailerDemo\MovieTrailer\build\intermediates\res\resources-debug.ap_"

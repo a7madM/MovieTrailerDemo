@@ -5,8 +5,6 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.movietrailer.R;
-
 /**
  * Created by a7medM on 12/6/2016.
  */
@@ -16,7 +14,6 @@ public class SceneHolder extends RecyclerView.ViewHolder implements View.OnClick
 
     public SceneHolder(View dividerView) {
         super(dividerView);
-        scene_thumbnail = (ImageView) dividerView.findViewById(R.id.scene_thumbnail);
     }
 
     @Override

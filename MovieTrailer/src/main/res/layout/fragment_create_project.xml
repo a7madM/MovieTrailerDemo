@@ -52,7 +52,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
-            android:drawableLeft="@drawable/ic_subtitle"
+            android:drawableLeft="@drawable/ic_attachment"
             android:text="choose Subtitle File" />
 
         <Button
@@ -61,8 +61,8 @@
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
             android:background="@drawable/btn_register"
-            android:drawableLeft="@drawable/ic_upload_subtitle"
-            android:padding="10dp"
+            android:drawableLeft="@drawable/ic_file_upload"
+            android:padding="8dp"
             android:text="Upload Subtitle"
             android:textColor="@color/colorAccent" />
 
@@ -98,7 +98,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
-            android:drawableLeft="@drawable/ic_drawer_trailers"
+            android:drawableLeft="@drawable/ic_movie_creation"
             android:text="Choose Movie File" />
 
         <Button
@@ -107,6 +107,8 @@
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
             android:background="@drawable/btn_register"
+            android:drawableLeft="@drawable/ic_trailer_produce"
+            android:padding="8dp"
             android:text="Produce Trailer"
             android:textColor="@color/colorAccent" />
 
