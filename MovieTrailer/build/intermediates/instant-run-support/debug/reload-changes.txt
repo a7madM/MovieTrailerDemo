@@ -1,13 +1,2 @@
-CHANGED,E:\Faculty\GraduationProject\VideoWorkspace\MovieTrailerDemo\MovieTrailer\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\movietrailer\R$style$override.class
-CHANGED,E:\Faculty\GraduationProject\VideoWorkspace\MovieTrailerDemo\MovieTrailer\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\movietrailer\R$drawable$override.class
-CHANGED,E:\Faculty\GraduationProject\VideoWorkspace\MovieTrailerDemo\MovieTrailer\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\movietrailer\R$menu$override.class
-CHANGED,E:\Faculty\GraduationProject\VideoWorkspace\MovieTrailerDemo\MovieTrailer\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\android\support\v7\appcompat\R$drawable$override.class
-CHANGED,E:\Faculty\GraduationProject\VideoWorkspace\MovieTrailerDemo\MovieTrailer\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\movietrailer\R$integer$override.class
-CHANGED,E:\Faculty\GraduationProject\VideoWorkspace\MovieTrailerDemo\MovieTrailer\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\movietrailer\R$mipmap$override.class
 CHANGED,E:\Faculty\GraduationProject\VideoWorkspace\MovieTrailerDemo\MovieTrailer\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class
-CHANGED,E:\Faculty\GraduationProject\VideoWorkspace\MovieTrailerDemo\MovieTrailer\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\movietrailer\R$id$override.class
-CHANGED,E:\Faculty\GraduationProject\VideoWorkspace\MovieTrailerDemo\MovieTrailer\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\movietrailer\R$layout$override.class
-CHANGED,E:\Faculty\GraduationProject\VideoWorkspace\MovieTrailerDemo\MovieTrailer\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\movietrailer\R$styleable$override.class
-CHANGED,E:\Faculty\GraduationProject\VideoWorkspace\MovieTrailerDemo\MovieTrailer\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\movietrailer\R$string$override.class
-CHANGED,E:\Faculty\GraduationProject\VideoWorkspace\MovieTrailerDemo\MovieTrailer\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\android\support\design\R$drawable$override.class
-CHANGED,E:\Faculty\GraduationProject\VideoWorkspace\MovieTrailerDemo\MovieTrailer\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\movietrailer\R$override.class
+CHANGED,E:\Faculty\GraduationProject\VideoWorkspace\MovieTrailerDemo\MovieTrailer\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\movietrailer\utility\UploadToServer$override.class

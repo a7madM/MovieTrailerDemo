@@ -37,7 +37,8 @@
         <activity
             android:name="movietrailer.screens.mainscreen.MainScreen"
             android:label="@string/activity_title_main"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden" />
         <activity android:name="movietrailer.screens.filepicker.FilePicker" />
     </application>
 

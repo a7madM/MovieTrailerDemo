@@ -2,9 +2,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
-        android:id="@+id/action_faqs"
-        android:icon="@drawable/ic_faqs"
-        android:title="FAQs"
+        android:id="@+id/action_profile"
+        android:icon="@drawable/ic_user_identity"
+        android:title="Profile"
         app:showAsAction="always" />
 
     <item
@@ -14,7 +14,7 @@
         app:showAsAction="always" />
     <item
         android:id="@+id/action_logout"
-        android:icon="@drawable/ic_logout"
+        android:icon="@drawable/ic_menu_logout"
         android:title="Logout"
         app:showAsAction="always" />
 

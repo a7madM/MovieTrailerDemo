@@ -25,15 +25,6 @@
         android:orientation="vertical"
         android:padding="10dp">
 
-        <EditText
-            android:id="@+id/trailer_name_Ed"
-            android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:layout_margin="5dp"
-            android:background="@drawable/edit_text_bg"
-            android:hint="Trailer Name"
-            android:maxLines="1"
-            android:padding="10dp" />
 
         <EditText
             android:id="@+id/subtitle_path_Ed"
@@ -150,34 +141,13 @@
         </LinearLayout>
     </LinearLayout>
 
-
-    <LinearLayout
-        android:id="@+id/layout3"
+    <VideoView
+        android:id="@+id/trailer_video"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_marginTop="5dp"
-        android:layout_weight="3"
-        android:background="@drawable/edit_text_bg"
-        android:orientation="vertical"
-        android:padding="10dp"
-        android:visibility="gone">
-
-        <android.support.v7.widget.RecyclerView
-            android:id="@+id/recyclerview"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_marginBottom="1dp"
-            android:layout_weight="3"
-            android:background="#dcdcdc"
-            android:scrollbars="vertical"
-            android:visibility="visible" />
-
-        <VideoView
-            android:id="@+id/trailer_video"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="2" />
-    </LinearLayout>
+        android:layout_margin="10dp"
+        android:layout_weight="2"
+        android:visibility="gone" />
 
     <LinearLayout
         android:layout_width="match_parent"

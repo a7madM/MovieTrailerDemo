@@ -41,14 +41,6 @@ public class SceneAdapter extends RecyclerView.Adapter<SceneHolder> {
     @Override
     public void onBindViewHolder(SceneHolder holder, final int position) {
         Scene scene = sceneList.get(position);
-
-        holder.scene_thumbnail.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if (clickListener != null)
-                    clickListener.onClickRecyclerView(v, position);
-            }
-        });
     }
 
     @Override

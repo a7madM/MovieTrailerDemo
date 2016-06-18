@@ -16,12 +16,12 @@
         "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_ratingbar_full_material.xml"
     },
     {
-        "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
-        "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_ratingbar_indicator_material.xml"
-    },
-    {
         "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
         "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_ratingbar_indicator_material.xml"
     },
     {
         "merged": "E:\\Faculty\\GraduationProject\\VideoWorkspace\\MovieTrailerDemo\\MovieTrailer\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",

@@ -4,7 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MovieTrailer/MovieTrailer.iml" filepath="$PROJECT_DIR$/MovieTrailer/MovieTrailer.iml" />
       <module fileurl="file://$PROJECT_DIR$/MovieTrailerDemo.iml" filepath="$PROJECT_DIR$/MovieTrailerDemo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ffmpeg_android_lib/ffmpeg_android_lib.iml" filepath="$PROJECT_DIR$/ffmpeg_android_lib/ffmpeg_android_lib.iml" />
     </modules>
   </component>
 </project>

@@ -54,6 +54,4 @@ public class Splash extends AppCompatActivity {
                 MainScreen.class));
         finish();
     }
-
-
 }

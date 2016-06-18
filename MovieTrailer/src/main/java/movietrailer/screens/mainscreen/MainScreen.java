@@ -22,7 +22,6 @@ public class MainScreen extends ToolbarActivity {
         setContentView(R.layout.activity_main);
     }
 
-
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
@@ -35,11 +34,7 @@ public class MainScreen extends ToolbarActivity {
 
         switch (item.getItemId()) {
 
-            case android.R.id.home:
-                finish();
-                break;
-
-            case R.id.action_faqs:
+            case R.id.action_profile:
                 break;
 
             case R.id.action_contact:
@@ -60,4 +55,5 @@ public class MainScreen extends ToolbarActivity {
         startActivity(intent);
         finish();
     }
+
 }

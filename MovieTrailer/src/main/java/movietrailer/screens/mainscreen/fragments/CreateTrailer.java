@@ -7,8 +7,6 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
 import android.support.v4.app.Fragment;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -25,11 +23,9 @@ import com.movietrailer.R;
 
 import java.io.File;
 import java.util.ArrayList;
-import java.util.List;
 import java.util.Random;
 
 import movietrailer.screens.filepicker.FilePicker;
-import movietrailer.screens.mainscreen.adapters.SceneAdapter;
 import movietrailer.screens.mainscreen.adapters.ViewHolderClickListener;
 import movietrailer.screens.mainscreen.entities.Scene;
 import movietrailer.utility.M;
@@ -38,24 +34,20 @@ import movietrailer.utility.VideoUtils;
 
 public class CreateTrailer extends Fragment implements View.OnClickListener, ViewHolderClickListener, VideoUtils.Communicator, UploadToServer.Callback {
 
+    // layout
+    private LinearLayout linearLayout;
+
     private Button choose_subtitle_Btn, upload_subtitle_Btn, choose_movie_Btn, produce_Btn;
     private EditText subtitle_path_Ed, movie_path_Ed;
     private TextView progress_msg, progress_Tv;
     private ProgressBar producing_progress_bar;
     private VideoView trailer_video;
 
-    // Recycler
-    private RecyclerView recyclerView;
-    private RecyclerView.Adapter recyclerAdapter;
-    private RecyclerView.LayoutManager layoutManager;
-
-    // layout
-    private LinearLayout linearLayout;
 
     // Video Processing
     private VideoUtils videoUtils;
-    private String start[] = {"00:01:00", "00:02:00", "00:03:00", "00:04:00"
-            , "00:05:00", "00:06:00", "00:07:00", "00:08:00", "00:09:00", "00:10:00"};
+    private String start[] = {"00:010:00", "00:012:00", "00:033:00", "00:016:00"
+            , "00:05:00", "00:09:00", "00:015:00", "00:07:00", "00:24:00", "00:60:00"};
     private int partNumber;
     private String movie_path;
     private String PARTS_DIRECTORY = "/sdcard/Movies/Parts/";
@@ -78,7 +70,7 @@ public class CreateTrailer extends Fragment implements View.OnClickListener, Vie
     }
 
     private void ffmpegProcess(String startTime, int partNumber) throws Exception {
-        int duration = new Random().nextInt(10) + 10;
+        int duration = new Random().nextInt(2) + 3;
         Log.d(LOG_TAG, "Part " + partNumber + ", Duration " + duration);
         File directory = new File(PARTS_DIRECTORY);
         boolean exist = directory.exists();
@@ -126,8 +118,9 @@ public class CreateTrailer extends Fragment implements View.OnClickListener, Vie
     }
 
     @Override
-    public void onFinishedVideoProcessing(boolean stat) {
-        if (!stat) {
+    public void onFinishedVideoProcessing(boolean status) {
+        Log.d(LOG_TAG, "Status " + status);
+        if (!status) {
             producing_progress_bar.setProgress(partNumber + 1);
             int percent = ((partNumber + 1) * 100) / start.length;
             progress_Tv.setText(percent + " %");
@@ -140,11 +133,11 @@ public class CreateTrailer extends Fragment implements View.OnClickListener, Vie
                 }
             } else {
                 try {
-                    listFiles();
+                    // listFiles();
                 } catch (Exception e) {
                     Log.e(LOG_TAG, "listFile " + e);
                 }
-                String commandConcat = " -f concat -i storage/sdcard1/Movies/parts.txt -c copy /sdcard/Movies/movietrailer.avi";
+                String commandConcat = " -y concat -i storage/sdcard1/Movies/parts.txt -c copy /sdcard/Movies/movietrailer.avi";
                 videoUtils = new VideoUtils(getActivity(), true, CreateTrailer.this);
                 try {
                     videoUtils.execFFmpegBinary(commandConcat);
@@ -190,6 +183,8 @@ public class CreateTrailer extends Fragment implements View.OnClickListener, Vie
 
                 UploadToServer uploadToServer = new UploadToServer(CreateTrailer.this);
                 uploadToServer.execute(subtitle_path);
+                // HttpConnector httpConnector = new HttpConnector(CreateTrailer.this);
+                //httpConnector.execute("api-upload");
                 break;
 
             case R.id.produce_Btn:
@@ -210,12 +205,11 @@ public class CreateTrailer extends Fragment implements View.OnClickListener, Vie
     @Override
     public void postExecute(String result) {
         // Parse Result here..
-        Log.d(LOG_TAG, "Finish Uploading..");
+        Log.d(LOG_TAG, "Finish Uploading.." + result);
         linearLayout = (LinearLayout) getActivity().findViewById(R.id.layout1);
-        linearLayout.setVisibility(View.GONE);
+        // linearLayout.setVisibility(View.GONE);
         linearLayout = (LinearLayout) getActivity().findViewById(R.id.layout2);
         linearLayout.setVisibility(View.VISIBLE);
-        linearLayout = (LinearLayout) getActivity().findViewById(R.id.layout3);
         producing_progress_bar.setMax(start.length);
     }
 
@@ -250,7 +244,6 @@ public class CreateTrailer extends Fragment implements View.OnClickListener, Vie
                 sceneList.add(scene);
             }
         }
-        initCardView(sceneList);
     }
 
     private void produceTrailer() throws Exception {
@@ -284,9 +277,6 @@ public class CreateTrailer extends Fragment implements View.OnClickListener, Vie
         producing_progress_bar = (ProgressBar) view.findViewById(R.id.producing_progress_bar);
 
         // layout 3
-        recyclerView = (RecyclerView) view.findViewById(R.id.recyclerview);
-        layoutManager = new LinearLayoutManager(getActivity());
-        recyclerView.setLayoutManager(layoutManager);
         trailer_video = (VideoView) view.findViewById(R.id.trailer_video);
 
 
@@ -299,21 +289,14 @@ public class CreateTrailer extends Fragment implements View.OnClickListener, Vie
     }
 
     private void initVideoPlayer() throws Exception {
+        Log.d(LOG_TAG, "Init Video");
+
         MediaController controller = new MediaController(getActivity());
         controller.setAnchorView(trailer_video);
         controller.setMediaPlayer(trailer_video);
+        trailer_video.setVisibility(View.VISIBLE);
         trailer_video.setMediaController(controller);
         trailer_video.setVideoPath("/sdcard/Movies/movietrailer.avi");
         trailer_video.start();
-    }
-
-    private void initCardView(List<Scene> sceneList) throws Exception {
-        producing_progress_bar.setVisibility(View.GONE);
-        progress_Tv.setVisibility(View.GONE);
-        progress_msg.setVisibility(View.GONE);
-        linearLayout.setVisibility(View.VISIBLE);
-        recyclerView.setVisibility(View.VISIBLE);
-        recyclerAdapter = new SceneAdapter(getActivity(), sceneList, this);
-        recyclerView.setAdapter(recyclerAdapter);
     }
 }
