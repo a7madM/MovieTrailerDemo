@@ -28,31 +28,32 @@ public class VideoUtils {
     }
 
     public VideoUtils(Context context, boolean status, Communicator communicator) {
-        this.context = context;
-        this.communicator = communicator;
-        this.status = status;
+        try {
+            init(context, status, communicator);
+        } catch (Exception e) {
+            Log.e(Log_Tag, "Error " + e);
+        }
         try {
             ffmpeg = FFmpeg.getInstance(context);
             ffmpeg.loadBinary(new LoadBinaryResponseHandler() {
 
                 @Override
                 public void onStart() {
-                    Log.d(TAG, "Start");
+
                 }
 
                 @Override
                 public void onFailure() {
-                    Log.e(TAG, "Failed");
                 }
 
                 @Override
                 public void onSuccess() {
-                    Log.d(TAG, "Success");
+
                 }
 
                 @Override
                 public void onFinish() {
-                    Log.d(TAG, "Finished");
+
                 }
             });
         } catch (FFmpegNotSupportedException e) {
@@ -68,17 +69,18 @@ public class VideoUtils {
         ffmpeg.execute(command, new ExecuteBinaryResponseHandler() {
             @Override
             public void onFailure(String s) {
-                Log.e(TAG, "FAILED with output : " + s);
+                Log.e(TAG, "FAILED " + s);
             }
 
             @Override
             public void onSuccess(String s) {
-                Log.d(TAG, "SUCCESS with output : " + s);
+                Log.d(TAG, "SUCCESS");
             }
 
             @Override
             public void onProgress(String s) {
-                Log.d(TAG, "progress : " + s);
+                if (status)
+                    Log.d(TAG, "progress : " + s);
             }
 
             @Override

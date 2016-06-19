@@ -17,7 +17,7 @@ android {
         }
 
         buildTypes.each {
-            it.buildConfigField 'String', 'Link_Header_WebService', '"http://192.168.68.168/project/"'
+            it.buildConfigField 'String', 'Link_Header_WebService', '"http://192.168.68.237/project/"'
         }
     }
 }

@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -13,6 +14,9 @@ import android.widget.TextView;
 import com.movietrailer.R;
 import com.movietrailer.Splash;
 
+import org.json.JSONObject;
+
+import movietrailer.auth.CurrentUser;
 import movietrailer.utility.HttpConnector;
 
 public class SignUpActivity extends AppCompatActivity implements View.OnClickListener, HttpConnector.Callback {
@@ -35,7 +39,6 @@ public class SignUpActivity extends AppCompatActivity implements View.OnClickLis
     }
 
     private void init() {
-
         first_name_Ed = (EditText) findViewById(R.id.first_name_Ed);
         last_name_Ed = (EditText) findViewById(R.id.last_name_Ed);
         username_Ed = (EditText) findViewById(R.id.username_Ed);
@@ -69,7 +72,7 @@ public class SignUpActivity extends AppCompatActivity implements View.OnClickLis
         }
         if (!password.equals(confirm_password)) {
             msgTV.setVisibility(View.VISIBLE);
-            msgTV.setText("Password not matchs.");
+            msgTV.setText("Password not matches.");
             return;
         }
         StringBuilder input = new StringBuilder();
@@ -95,10 +98,24 @@ public class SignUpActivity extends AppCompatActivity implements View.OnClickLis
 
     @Override
     public void postExecute(String userObject) {
+        progressBar.setVisibility(View.GONE);
+        loginBtn.setVisibility(View.VISIBLE);
         try {
-            startMainActivity();
+            Log.d(LOG_TAG, "Result " + userObject);
+            JSONObject jsonObject = new JSONObject(userObject);
+            boolean success = jsonObject.getBoolean("success");
+            if (success) {
+                String token = jsonObject.getString("token");
+                CurrentUser currentUser = new CurrentUser(SignUpActivity.this);
+                currentUser.authenticated(true);
+                currentUser.setSession_token(token);
+                startMainActivity();
+            } else {
+                msgTV.setVisibility(View.VISIBLE);
+                msgTV.setText("Register Failed, Try again..");
+            }
         } catch (Exception e) {
-
+            Log.e(LOG_TAG, "Post Execute " + e);
         }
     }
 

@@ -11,5 +11,5 @@ public final class BuildConfig {
   public static final int VERSION_CODE = -1;
   public static final String VERSION_NAME = "";
   // Fields from build type: debug
-  public static final String Link_Header_WebService = "http://192.168.68.168/project/";
+  public static final String Link_Header_WebService = "http://192.168.68.237/project/";
 }

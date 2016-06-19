@@ -58,6 +58,7 @@
             android:textColor="@color/colorAccent" />
 
         <ProgressBar
+            android:id="@+id/upload_progress"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:visibility="gone" />

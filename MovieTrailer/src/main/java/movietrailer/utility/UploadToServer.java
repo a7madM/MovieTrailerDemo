@@ -43,7 +43,7 @@ public class UploadToServer extends AsyncTask<String, Void, String> {
 
 
     private int serverResponseCode = 0;
-
+    String result;
 
     @Override
     protected String doInBackground(String... params) {
@@ -71,7 +71,6 @@ public class UploadToServer extends AsyncTask<String, Void, String> {
             conn.setRequestProperty("Connection", "Keep-Alive");
             conn.setRequestProperty("ENCTYPE", "multipart/form-data");
             conn.setRequestProperty("Content-Type", "multipart/form-data;boundary=" + boundary);
-            // conn.setRequestProperty("uploaded_file", sourceFileUri);
             conn.setRequestProperty("subtitle", sourceFileUri);
 
             dos = new DataOutputStream(conn.getOutputStream());
@@ -122,8 +121,8 @@ public class UploadToServer extends AsyncTask<String, Void, String> {
             if (buffered.length() == 0) {
                 return null;
             }
-            String jsonStr = buffered.toString();
-            Log.d(LOG_TAG, jsonStr);
+            result = buffered.toString();
+            Log.d(LOG_TAG, result);
 
             fileInputStream.close();
             dos.flush();
@@ -132,8 +131,7 @@ public class UploadToServer extends AsyncTask<String, Void, String> {
         } catch (Exception e) {
             Log.e(LOG_TAG, "Error " + e);
         }
-
-        return "Executed";
+        return result;
     }
 
     @Override
