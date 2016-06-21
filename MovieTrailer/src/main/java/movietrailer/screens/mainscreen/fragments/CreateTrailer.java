@@ -227,7 +227,7 @@ public class CreateTrailer extends Fragment implements View.OnClickListener, Vie
         }
 
         linearLayout = (LinearLayout) getActivity().findViewById(R.id.layout1);
-        // linearLayout.setVisibility(View.GONE);
+        linearLayout.setVisibility(View.GONE);
         linearLayout = (LinearLayout) getActivity().findViewById(R.id.layout2);
         linearLayout.setVisibility(View.VISIBLE);
     }
